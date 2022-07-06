@@ -11,7 +11,9 @@ export class ClienteComponent implements OnInit {
 
   cliente:Cliente={
     nome:"",
-    idade:0
+    idade:0,
+    salario:0,
+    cadastro:new Date()
   }
   constructor() { }
 

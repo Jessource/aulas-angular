@@ -9,17 +9,20 @@ import { ModuloAngularComponent } from './modulo-angular/modulo-angular.componen
 import { Cliente } from './tamplate/cliente/cliente';
 import { ClienteComponent } from './tamplate/cliente/cliente.component';
 import { TamplateModule } from './tamplate/tamplate.module';
+import { FormatarMoedaPipe } from './formatar-moeda.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClienteComponent
+    ClienteComponent,
+    FormatarMoedaPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     TamplateModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
